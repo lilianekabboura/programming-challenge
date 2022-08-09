@@ -1,4 +1,4 @@
-package de.exxcellent.challenge;
+package de.exxcellent.challenge.Reader;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CSVReader {
-    public List<List<String>> readFile(String filePath)  {
+    public List<List<String>> readFile(String filePath) {
 
         List<List<String>> data = new ArrayList<>();
 
@@ -24,7 +24,6 @@ public class CSVReader {
             System.out.println(filePath + " not found");
 
         }
-        System.out.println(data);
         return data;
     }
 

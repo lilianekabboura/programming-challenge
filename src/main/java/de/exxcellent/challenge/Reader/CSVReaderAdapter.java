@@ -1,4 +1,6 @@
-package de.exxcellent.challenge;
+package de.exxcellent.challenge.Reader;
+
+import de.exxcellent.challenge.Reader.CSVReader;
 
 import java.util.List;
 
